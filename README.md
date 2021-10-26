@@ -18,7 +18,6 @@ yarn add react-query
 
 ```TSX
 // _app.tsx
-import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
@@ -30,7 +29,7 @@ const queryClient = new QueryClient({
 		},
 	},
 })
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
    return (
 	   <QueryClientProvider client={queryClient}>
 		   <Component {...pageProps} />
@@ -55,9 +54,11 @@ const client = new ApolloClient({
    cache: new InMemoryCache()
 });
 
-return (
-   <ApolloProvider client={client}>
-      <Component {...pageProps} />
-   </ApolloProvider>
-);
+const MyApp = ({ Component, pageProps }: AppProps) => {
+	return (
+      <ApolloProvider client={client}>
+         <Component {...pageProps} />
+      </ApolloProvider>
+   );
+}
 ```
