@@ -16,7 +16,7 @@ mkdir src/components
 yarn add react-query
 ```
 
-```
+```TSX
 // _app.tsx
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 yarn add @apollo/client
 ```
 
-```
+```TSX
 // _app.tsx
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
