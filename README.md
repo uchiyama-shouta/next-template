@@ -6,6 +6,14 @@
 - Prettier
 - Tailwind CSS
 
+
+`Use this templateを押す`
+
+```
+git clone repo_url
+```
+
+
 ```
 mkdir src/components
 ```
