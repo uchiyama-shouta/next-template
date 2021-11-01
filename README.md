@@ -6,15 +6,14 @@
 - Prettier
 - Tailwind CSS
 
-
 `Use this templateを押す`
 
 ```
 git clone repo_url
 ```
 
-
 ```
+yarn
 mkdir src/components
 ```
 
@@ -50,7 +49,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 # Apollo Client を使う場合
 
 ```
-yarn add @apollo/client
+yarn add @apollo/client graphql
 ```
 
 ```TSX
@@ -58,7 +57,7 @@ yarn add @apollo/client
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-   uri: `${process.env.NEXT_PUBLIC_API_URL}/graphql`,
+   uri: `${process.env.NEXT_PUBLIC_API_URL}`,
    cache: new InMemoryCache()
 });
 
@@ -67,6 +66,25 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       <ApolloProvider client={client}>
          <Component {...pageProps} />
       </ApolloProvider>
+   );
+}
+```
+
+# Recoil を使う場合
+
+```
+yarn add recoil
+```
+
+```TSX
+// _app.tsx
+import { RecoilRoot } from 'recoil';
+
+const MyApp = ({ Component, pageProps }: AppProps) => {
+	return (
+		<RecoilRoot>
+         <Component {...pageProps} />
+      </RecoilRoot>
    );
 }
 ```
