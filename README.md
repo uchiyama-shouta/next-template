@@ -57,7 +57,7 @@ yarn add @apollo/client graphql
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-   uri: `${process.env.NEXT_PUBLIC_API_URL}`,
+   uri: process.env.NEXT_PUBLIC_API_URL,
    cache: new InMemoryCache()
 });
 
