@@ -7,15 +7,17 @@
 - Tailwind CSS
 
 `Use this templateを押す`
-or
-```
-yarn create next-app test --example https://github.com/uchiyama-shouta/next-template
-```
-
 ```
 git clone repo_url
 ```
 
+or
+
+```
+yarn create next-app test --example https://github.com/uchiyama-shouta/next-template
+```
+
+## componentsディレクトリを作成
 ```
 yarn
 mkdir src/components
