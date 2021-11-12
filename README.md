@@ -6,7 +6,11 @@
 - Prettier
 - Tailwind CSS
 
+## 使い方
+
 `Use this templateを押す`
+
+### プロダクトの作成
 
 ```
 git clone repo_url
@@ -18,13 +22,13 @@ or
 yarn create next-app test --example https://github.com/uchiyama-shouta/next-template
 ```
 
-## componentsディレクトリを作成
+### componentsディレクトリを作成
 ```
 yarn
 mkdir src/components
 ```
 
-# React Query を使う場合
+### React Query を使う場合
 
 ```
 yarn add react-query
