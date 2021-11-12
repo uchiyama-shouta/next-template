@@ -8,9 +8,9 @@
 
 ## 使い方
 
-`Use this templateを押す`
-
 ### プロダクトの作成
+
+`Use this templateを押す`
 
 ```
 git clone repo_url
