@@ -8,16 +8,17 @@
 
 `Use this templateを押す`
 
+```
+git clone repo_url
+```
+
 or
 
 ```
 yarn create next-app test --example https://github.com/uchiyama-shouta/next-template
 ```
 
-```
-git clone repo_url
-```
-
+## componentsディレクトリを作成
 ```
 yarn
 mkdir src/components
