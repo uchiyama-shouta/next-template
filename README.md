@@ -7,7 +7,9 @@
 - Tailwind CSS
 
 `Use this templateを押す`
+
 or
+
 ```
 yarn create next-app test --example https://github.com/uchiyama-shouta/next-template
 ```
@@ -33,20 +35,21 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient({
-	defaultOptions: {
-		queries: {
-			retry: false,
-			refetchOnWindowFocus: false,
-		},
-	},
+  defaultOptions: {
+    queries: {
+      retry: false,
+        refetchOnWindowFocus: false,
+    },
+  },
 })
+
 const MyApp = ({ Component, pageProps }: AppProps) => {
-   return (
-	   <QueryClientProvider client={queryClient}>
-		   <Component {...pageProps} />
-		   <ReactQueryDevtools />
-	   </QueryClientProvider>
-	);
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Component {...pageProps} />
+      <ReactQueryDevtools />
+    </QueryClientProvider>
+  );
 };
 ```
 
@@ -66,10 +69,10 @@ const client = new ApolloClient({
 });
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-	return (
-      <ApolloProvider client={client}>
-         <Component {...pageProps} />
-      </ApolloProvider>
+  return (
+    <ApolloProvider client={client}>
+      <Component {...pageProps} />
+    </ApolloProvider>
    );
 }
 ```
@@ -85,10 +88,10 @@ yarn add recoil
 import { RecoilRoot } from 'recoil';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-	return (
-		<RecoilRoot>
-         <Component {...pageProps} />
-      </RecoilRoot>
-   );
+  return (
+    <RecoilRoot>
+      <Component {...pageProps} />
+    </RecoilRoot>
+  );
 }
 ```
