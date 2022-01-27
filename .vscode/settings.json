@@ -5,9 +5,9 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
+  "editor.tabSize": 2,
   "files.encoding": "utf8",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.tabSize": 2,
   "editor.quickSuggestions": {
     "strings": true
   }
