@@ -21,6 +21,6 @@
         "checkLocalVariables": true,
         "checkInlineFunction": true
       }
-    ]
+    ]    
   }
 }
