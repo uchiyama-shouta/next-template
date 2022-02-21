@@ -19,7 +19,7 @@ git clone repo_url
 or
 
 ```
-yarn create next-app test --example https://github.com/uchiyama-shouta/next-template
+yarn create next-app --example https://github.com/uchiyama-shouta/next-template
 ```
 
 ### componentsディレクトリを作成
