@@ -7,7 +7,11 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 const runtimeCaching = require("next-pwa/cache");
 const withPWA = require("next-pwa")({
-  pwa: { dest: "public", runtimeCaching },
+  pwa: {
+    dest: "public",
+    disable: process.env.NODE_ENV === "development",
+    runtimeCaching,
+  },
 });
 
 const withPlugins = require("next-compose-plugins");
