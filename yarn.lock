@@ -1186,6 +1186,11 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
+"@tsconfig/node16-strictest-esm@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16-strictest-esm/-/node16-strictest-esm-1.0.1.tgz#9b93f780959a4dd55a3032e5dd01b8d79cfbb79c"
+  integrity sha512-+ZUodm4gDaDFOoawqTGbVUbIR6bBinMyOhUSle84nVv4HtQQwRM19H+8w2lhAgcqt66UBvoI2+5Hqh218fjKWQ==
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
