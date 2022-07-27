@@ -3393,10 +3393,10 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-"@tsconfig/node16-strictest-esm@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node16-strictest-esm/-/node16-strictest-esm-1.0.1.tgz#9b93f780959a4dd55a3032e5dd01b8d79cfbb79c"
-  integrity sha512-+ZUodm4gDaDFOoawqTGbVUbIR6bBinMyOhUSle84nVv4HtQQwRM19H+8w2lhAgcqt66UBvoI2+5Hqh218fjKWQ==
+"@tsconfig/node16-strictest-esm@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16-strictest-esm/-/node16-strictest-esm-1.0.3.tgz#b0e98d44b67765601803cf074e3fa565b390d74f"
+  integrity sha512-0/QTPDkKmE2dy0dMRstPCv4VJ+gUGgvMKzaWd5P3hgdlmPqYqe1pJxDGUlNYbSgUBlncIvvX+mIeZarokysNgg==
 
 "@types/aria-query@^4.2.0":
   version "4.2.2"
