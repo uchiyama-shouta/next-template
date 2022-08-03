@@ -8,7 +8,7 @@
 
 Next.js + TypeScript + Tailwind UI で開発をすること前提で作られています。
 
-@next/bundle-analyzer, next-pwaの設定済み
+@next/bundle-analyzer, next-pwa の設定済み
 
 ## 使い方
 
