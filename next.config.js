@@ -1,9 +1,9 @@
 /* eslint-disable import/order */
 /* eslint-disable @typescript-eslint/no-var-requires */
 
-// const withBundleAnalyzer = require("@next/bundle-analyzer")({
-//   enabled: process.env.ANALYZE === "true",
-// });
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
 
 // const runtimeCaching = require("next-pwa/cache");
 // const withPWA = require("next-pwa")({
@@ -27,6 +27,6 @@ const config = {
   },
 };
 
-module.exports = withPlugins([], {
+module.exports = withPlugins([withBundleAnalyzer], {
   ...config,
 });
