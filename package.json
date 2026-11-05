@@ -18,7 +18,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@headlessui/react": "1.6.6",
+    "@headlessui/react": "1.7.19",
     "next": "12.2.5",
     "next-pwa": "5.5.5",
     "react": "18.2.0",
